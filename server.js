@@ -1,9 +1,10 @@
 require('dotenv').config();
-const express = require('express');
 require('./config/database');
+const express = require('express');
 const app = express();
 const morgan = require('morgan');
 
+// Middleware
 
 app.use(express.json());
 
